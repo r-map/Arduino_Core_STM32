@@ -27,7 +27,7 @@ Nucleo_144.menu.pnum.NUCLEO_F207ZG.node=NODE_F207ZG
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.upload.maximum_size=1048576
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.upload.maximum_data_size=131072
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.mcu=cortex-m3
-Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.board=NUCLEO_F207ZG
+Nucleo_144.menu.pnum.NUCLEO_F207ZG.uild.board=NUCLEO_F207ZG
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.series=STM32F2xx
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.product_line=STM32F207xx
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.variant=NUCLEO_F207ZG
@@ -1499,6 +1499,15 @@ GenF4.menu.pnum.Generic_F410CB.upload.maximum_data_size=32768
 GenF4.menu.pnum.Generic_F410CB.build.board=GENERIC_F410CB
 GenF4.menu.pnum.Generic_F410CB.build.product_line=STM32F410Cx
 GenF4.menu.pnum.Generic_F410CB.build.variant=Generic_F410Cx
+
+# microduinostm32 F410CB
+GenF4.menu.pnum.microduinostm32_F4110CB=microduinostm32 F4110CB
+GenF4.menu.pnum.microduinostm32_F4110CB.upload.maximum_size=131072
+GenF4.menu.pnum.microduinostm32_F4110CB.upload.maximum_data_size=32768
+GenF4.menu.pnum.microduinostm32_F4110CB.build.board=GENERIC_F410CB
+GenF4.menu.pnum.microduinostm32_F4110CB.build.product_line=STM32F410Cx
+GenF4.menu.pnum.microduinostm32_F4110CB.build.variant=microduinostm32_F4110CB
+
 
 # Generic F410C8
 GenF4.menu.pnum.Generic_F410C8=Generic F410C8
