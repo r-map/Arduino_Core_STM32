@@ -65,12 +65,13 @@ extern "C" {
 
 // On-board LED pin number
 #ifndef LED_BUILTIN
-#define LED_BUILTIN             PYn
+  //#define LED_BUILTIN             PA5
 #endif
+#define LED_GREEN               LED_BUILTIN
 
 // On-board user button
 #ifndef USER_BTN
-#define USER_BTN                PYn
+  //#define USER_BTN                PYn
 #endif
 
 // SPI definitions
@@ -81,10 +82,10 @@ extern "C" {
 #define PIN_SPI_SS1             PA15
 #endif
 #ifndef PIN_SPI_SS2
-#define PIN_SPI_SS2             PYn
+  //#define PIN_SPI_SS2             PYn
 #endif
 #ifndef PIN_SPI_SS3
-#define PIN_SPI_SS3             PYn
+  //#define PIN_SPI_SS3             PYn
 #endif
 #ifndef PIN_SPI_MOSI
 #define PIN_SPI_MOSI            PA7

@@ -27,7 +27,7 @@ Nucleo_144.menu.pnum.NUCLEO_F207ZG.node=NODE_F207ZG
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.upload.maximum_size=1048576
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.upload.maximum_data_size=131072
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.mcu=cortex-m3
-Nucleo_144.menu.pnum.NUCLEO_F207ZG.uild.board=NUCLEO_F207ZG
+Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.board=NUCLEO_F207ZG
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.series=STM32F2xx
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.product_line=STM32F207xx
 Nucleo_144.menu.pnum.NUCLEO_F207ZG.build.variant=NUCLEO_F207ZG
@@ -847,6 +847,14 @@ GenF1.build.series=STM32F1xx
 GenF1.build.cmsis_lib_gcc=arm_cortexM3l_math
 GenF1.build.extra_flags=-D{build.product_line} {build.enable_usb} {build.xSerial} {build.bootloader_flags}
 
+# microduinostm32 F103CB
+GenF1.menu.pnum.microduinostm32_F103CB=microduinostm32 F103CB
+GenF1.menu.pnum.microduinostm32_F103CB.upload.maximum_size=131072
+GenF1.menu.pnum.microduinostm32_F103CB.upload.maximum_data_size=32768
+GenF1.menu.pnum.microduinostm32_F103CB.build.board=GENERIC_F103CB
+GenF1.menu.pnum.microduinostm32_F103CB.build.product_line=STM32F103xB
+GenF1.menu.pnum.microduinostm32_F103CB.build.variant=microduinostm32_F103CB
+
 # BLUEPILL_F103C6 board
 GenF1.menu.pnum.BLUEPILL_F103C6=BluePill F103C6 (32K)
 GenF1.menu.pnum.BLUEPILL_F103C6.upload.maximum_size=32768
@@ -1221,6 +1229,15 @@ GenF4.build.flags.fp=-mfpu=fpv4-sp-d16 -mfloat-abi=hard
 GenF4.build.series=STM32F4xx
 GenF4.build.cmsis_lib_gcc=arm_cortexM4lf_math
 
+# microduinostm32 F410CB
+GenF4.menu.pnum.microduinostm32_F4110CB=microduinostm32 F410CB
+GenF4.menu.pnum.microduinostm32_F4110CB.upload.maximum_size=131072
+GenF4.menu.pnum.microduinostm32_F4110CB.upload.maximum_data_size=32768
+GenF4.menu.pnum.microduinostm32_F4110CB.build.board=GENERIC_F410CB
+GenF4.menu.pnum.microduinostm32_F4110CB.build.product_line=STM32F410Cx
+GenF4.menu.pnum.microduinostm32_F4110CB.build.variant=microduinostm32_F410CB
+
+
 # Black F407VE
 # https://github.com/mcauser/BLACK_F407VEZ
 GenF4.menu.pnum.BLACK_F407VE=Black F407VE
@@ -1500,15 +1517,6 @@ GenF4.menu.pnum.Generic_F410CB.build.board=GENERIC_F410CB
 GenF4.menu.pnum.Generic_F410CB.build.product_line=STM32F410Cx
 GenF4.menu.pnum.Generic_F410CB.build.variant=Generic_F410Cx
 
-# microduinostm32 F410CB
-GenF4.menu.pnum.microduinostm32_F4110CB=microduinostm32 F4110CB
-GenF4.menu.pnum.microduinostm32_F4110CB.upload.maximum_size=131072
-GenF4.menu.pnum.microduinostm32_F4110CB.upload.maximum_data_size=32768
-GenF4.menu.pnum.microduinostm32_F4110CB.build.board=GENERIC_F410CB
-GenF4.menu.pnum.microduinostm32_F4110CB.build.product_line=STM32F410Cx
-GenF4.menu.pnum.microduinostm32_F4110CB.build.variant=microduinostm32_F4110CB
-
-
 # Generic F410C8
 GenF4.menu.pnum.Generic_F410C8=Generic F410C8
 GenF4.menu.pnum.Generic_F410C8.upload.maximum_size=65536
@@ -1713,6 +1721,33 @@ GenL0.menu.upload_method.dfuMethod.upload.tool=stm32CubeProg
 GenL0.menu.upload_method.bmpMethod=BMP (Black Magic Probe)
 GenL0.menu.upload_method.bmpMethod.upload.protocol=gdb_bmp
 GenL0.menu.upload_method.bmpMethod.upload.tool=bmp_upload
+
+
+################################################################################
+# Generic L4
+
+GenL4.name=Generic STM32L4 series
+GenL4.build.core=arduino
+GenL4.build.board=GenL4
+GenL4.build.extra_flags=-D{build.product_line} {build.enable_usb} {build.xSerial}
+GenL4.build.mcu=cortex-m4
+GenL4.build.flags.fp=-mfpu=fpv4-sp-d16 -mfloat-abi=hard
+GenL4.build.series=STM32L4xx
+GenL4.build.cmsis_lib_gcc=arm_cortexM4lf_math
+
+# microduinostm32 L433CC
+GenL4.menu.pnum.microduinostm32_L433CC=microduinostm32 L433CC
+GenL4.menu.pnum.microduinostm32_L433CC.node=NODE_L433RC
+GenL4.menu.pnum.microduinostm32_L433CC.upload.maximum_size=1048576
+GenL4.menu.pnum.microduinostm32_L433CC.upload.maximum_data_size=98304
+GenL4.menu.pnum.microduinostm32_L433CC.build.mcu=cortex-m4
+GenL4.menu.pnum.microduinostm32_L433CC.build.flags.fp=-mfpu=fpv4-sp-d16 -mfloat-abi=hard
+GenL4.menu.pnum.microduinostm32_L433CC.build.board=microduinostm32_L433CC
+GenL4.menu.pnum.microduinostm32_L433CC.build.series=STM32L4xx
+GenL4.menu.pnum.microduinostm32_L433CC.build.product_line=STM32L433xx
+GenL4.menu.pnum.microduinostm32_L433CC.build.variant=microduinostm32_L433CC
+GenL4.menu.pnum.microduinostm32_L433CC.build.cmsis_lib_gcc=arm_cortexM4lf_math
+
 
 ################################################################################
 # Electronic Speed Controller boards
