@@ -850,8 +850,8 @@ GenF1.build.extra_flags=-D{build.product_line} {build.enable_usb} {build.xSerial
 # microduinostm32 F103CB
 GenF1.menu.pnum.microduinostm32_F103CB=microduinostm32 F103CB
 GenF1.menu.pnum.microduinostm32_F103CB.upload.maximum_size=131072
-GenF1.menu.pnum.microduinostm32_F103CB.upload.maximum_data_size=32768
-GenF1.menu.pnum.microduinostm32_F103CB.build.board=GENERIC_F103CB
+GenF1.menu.pnum.microduinostm32_F103CB.upload.maximum_data_size=20480
+GenF1.menu.pnum.microduinostm32_F103CB.build.board=MICRODUINO_F103CB
 GenF1.menu.pnum.microduinostm32_F103CB.build.product_line=STM32F103xB
 GenF1.menu.pnum.microduinostm32_F103CB.build.variant=microduinostm32_F103CB
 
@@ -1233,10 +1233,9 @@ GenF4.build.cmsis_lib_gcc=arm_cortexM4lf_math
 GenF4.menu.pnum.microduinostm32_F4110CB=microduinostm32 F410CB
 GenF4.menu.pnum.microduinostm32_F4110CB.upload.maximum_size=131072
 GenF4.menu.pnum.microduinostm32_F4110CB.upload.maximum_data_size=32768
-GenF4.menu.pnum.microduinostm32_F4110CB.build.board=GENERIC_F410CB
+GenF4.menu.pnum.microduinostm32_F4110CB.build.board=MICRODUINO_F410CB
 GenF4.menu.pnum.microduinostm32_F4110CB.build.product_line=STM32F410Cx
 GenF4.menu.pnum.microduinostm32_F4110CB.build.variant=microduinostm32_F410CB
-
 
 # Black F407VE
 # https://github.com/mcauser/BLACK_F407VEZ

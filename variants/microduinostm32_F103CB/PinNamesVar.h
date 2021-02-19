@@ -23,6 +23,7 @@
 #ifdef PWR_WAKEUP_PIN8
   SYS_WKUP8 = NC,
 #endif
+
 /* USB */
 #ifdef USBCON
   USB_DM = PA_11,
