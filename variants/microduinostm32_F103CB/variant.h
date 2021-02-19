@@ -64,7 +64,7 @@ extern "C" {
 //                  |---------|
 
 // This must be a literal
-#define NUM_DIGITAL_PINS        21
+#define NUM_DIGITAL_PINS        22
 #define NUM_ANALOG_INPUTS       8
 
 // On-board LED pin number
